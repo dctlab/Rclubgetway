@@ -39,11 +39,11 @@
 		
 	//CcAavenue variable	
 	//$Merchant_Id = "" ;//This id(also User Id)  available at "Generate Working Key" of "Settings & Options" 
-	$Amount = $_GET["sellingcurrencyamount"];//"1000" ;//your script should substitute the amount in the quotes provided here
-	$Order_Id =  $_GET["transid"];		//"a1235" ;//your script should substitute the order description in the quotes provided here
+	$Amount = $_GET["sellingcurrencyamount"];//"100" ;//your script should substitute the amount in the quotes provided here
+	$Order_Id =  $_GET["transid"];		//"85462" ;//your script should substitute the order description in the quotes provided here
 	//$redirect_url = "" ;//your redirect URL where your customer will be redirected after authorisation from CCAvenue
 
-	//$working_key = "mksj3rhl1fnxpccbju"  ;//CCAvenue - put in the 32 bit alphanumeric key in the quotes provided here.Please note that get this key ,login to your CCAvenue merchant account and visit the "Generate Working Key" section at the "Settings & Options" page. 
+	//$working_key = "mksj3r524yhbju"  ;//CCAvenue - put in the 32 bit alphanumeric key in the quotes provided here.Please note that get this key ,login to your CCAvenue merchant account and visit the "Generate Working Key" section at the "Settings & Options" page. 
 	//ccAvenue checksum
 	$Checksum = getCheckSum($merchant_id,$Amount,$Order_Id ,$redirect_url,$working_key);
 
