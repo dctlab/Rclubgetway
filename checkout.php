@@ -2,7 +2,7 @@
 @session_save_path("./");  ?>
 <html>
 <head>
-<title>ISH Web Solution</title>
+<title>DCT LAB</title>
 
 </head>
 <body >
@@ -51,6 +51,7 @@
 	//echo $paymentTypeId."<br/>Paymen: ". $paymentTypeId."<br/>TranID: ". $transId."<br/>User ID: ". $userId."<br/>Transcation: ". $transactionType."<br/>Invoice ID: ". $invoiceIds."<br/>Debit ID: ". $debitNoteIds."<br/>Desc: ". $description."<br/>Sellcin: ". $sellingCurrencyAmount."<br/>Account: ". $accountingCurrencyAmount."<br/>Key: ". $key."<br/>Check: ". $checksum;
 	
 	//Reseller Club Verify Checksum
+	
 	//if(verifyChecksum1($paymentTypeId, $transId, $userId, $userType, $transactionType, $invoiceIds, $debitNoteIds, $description, $sellingCurrencyAmount, $accountingCurrencyAmount, $key, $checksum))
 //		{
 			//echo "Verified";
