@@ -1,0 +1,27 @@
+<?php
+/**
+  * Description: This extends Reseller Club to accepts payments through CCAvenues Payment gateway on your supersite2. 
+ * File Description: The base configurations of the code.
+ * This file has the following configurations:  Reseller Club Key, CCAvenue Merchant ID, CCAVenue Working Key
+ */
+
+
+/** Reseller Club Key */
+$key = "jkH3HzWLaqXhM39F72NV52Usz00Bpb0u"; //replace ur 32 bit secure key , Get your secure key from your Reseller Control panel
+
+/** CCAvenue Merchant ID*/
+$merchant_id = "M_ade26687_26687" ;//This id(also User Id)  available at "Generate Working Key" of "Settings & Options" 
+
+/** CCAvenue Working Key or Encryption Key*/
+$working_key="ieanrr3kzplv0v72131vsddzq0yyo32z";//Shared by CCAVENUES
+
+/** Directry URL */
+$directory_url =  "http://dctlab.com/pay" ;
+
+/** Redirection URL */
+$redirect_url =  "http://dctlab.com/pay/redirecturl.php" ;
+
+/** Action URL from Chekout page */
+$action_url =  "http://dctlab.com/pay/checkout.php" ;
+
+?>
